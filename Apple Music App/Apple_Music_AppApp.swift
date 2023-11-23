@@ -11,7 +11,30 @@ import SwiftUI
 struct Apple_Music_AppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabView{
+                AlbumView()
+                    .tabItem {
+                        Image(systemName: "play.circle.fill")
+                        Text("Listen Now")
+                    }
+                ContentView()
+                    .tabItem {
+                        Image(systemName: "dot.radiowaves.left.and.right")
+                        Text("Radio")
+                    }
+                ContentView()
+                    .tabItem {
+                        Image(systemName: "play.square.stack.fill")
+                        Text("Library")
+                    }
+                ContentView()
+                    .tabItem {
+                        Image(systemName: "magnifyingglass")
+                        Text("Search")
+                    }
+                
+            }
+            .tint(.red)
         }
     }
 }

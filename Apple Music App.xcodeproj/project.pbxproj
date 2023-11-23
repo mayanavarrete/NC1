@@ -7,19 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE106EAF2B0CAD18001A4594 /* TinyButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE106EAE2B0CAD18001A4594 /* TinyButtonView.swift */; };
 		EE8B535A2B038434009FE6E2 /* Apple_Music_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8B53592B038434009FE6E2 /* Apple_Music_AppApp.swift */; };
 		EE8B535C2B038434009FE6E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8B535B2B038434009FE6E2 /* ContentView.swift */; };
 		EE8B535E2B038435009FE6E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE8B535D2B038435009FE6E2 /* Assets.xcassets */; };
 		EE8B53622B038435009FE6E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE8B53612B038435009FE6E2 /* Preview Assets.xcassets */; };
+		EE8B53692B054714009FE6E2 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8B53682B054714009FE6E2 /* Album.swift */; };
+		EE8B536C2B054931009FE6E2 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8B536B2B054931009FE6E2 /* Song.swift */; };
+		EE8B536E2B054C3C009FE6E2 /* MyPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8B536D2B054C3C009FE6E2 /* MyPalette.swift */; };
+		EE8B53702B06095E009FE6E2 /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8B536F2B06095E009FE6E2 /* Playlist.swift */; };
+		EE8B53722B060977009FE6E2 /* Another Album by.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8B53712B060977009FE6E2 /* Another Album by.swift */; };
+		EE8B53742B060A93009FE6E2 /* AlbumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8B53732B060A93009FE6E2 /* AlbumViewModel.swift */; };
+		EE8B53772B061690009FE6E2 /* AlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8B53762B061690009FE6E2 /* AlbumView.swift */; };
+		EE8B537A2B063484009FE6E2 /* AnotherAlbumByView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8B53792B063484009FE6E2 /* AnotherAlbumByView.swift */; };
+		EE8B537C2B065E59009FE6E2 /* TopButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8B537B2B065E59009FE6E2 /* TopButtonView.swift */; };
+		EE8B537E2B066379009FE6E2 /* PlaylistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8B537D2B066379009FE6E2 /* PlaylistView.swift */; };
+		EE8B53802B075E8D009FE6E2 /* AlbumAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8B537F2B075E8D009FE6E2 /* AlbumAnimationView.swift */; };
+		EE8B53822B0B5CBE009FE6E2 /* ReproductionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8B53812B0B5CBE009FE6E2 /* ReproductionView.swift */; };
+		EE8B53842B0B7498009FE6E2 /* VolumeSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8B53832B0B7498009FE6E2 /* VolumeSliderView.swift */; };
+		EE8B53862B0B7BE3009FE6E2 /* QueueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8B53852B0B7BE3009FE6E2 /* QueueView.swift */; };
+		EE8B53882B0B9CA1009FE6E2 /* TimeSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8B53872B0B9CA1009FE6E2 /* TimeSliderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE106EAE2B0CAD18001A4594 /* TinyButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyButtonView.swift; sourceTree = "<group>"; };
 		EE8B53562B038434009FE6E2 /* Apple Music App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple Music App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE8B53592B038434009FE6E2 /* Apple_Music_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_Music_AppApp.swift; sourceTree = "<group>"; };
 		EE8B535B2B038434009FE6E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EE8B535D2B038435009FE6E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE8B535F2B038435009FE6E2 /* Apple_Music_App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Apple_Music_App.entitlements; sourceTree = "<group>"; };
 		EE8B53612B038435009FE6E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE8B53682B054714009FE6E2 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		EE8B536B2B054931009FE6E2 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = SOURCE_ROOT; };
+		EE8B536D2B054C3C009FE6E2 /* MyPalette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPalette.swift; sourceTree = "<group>"; };
+		EE8B536F2B06095E009FE6E2 /* Playlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
+		EE8B53712B060977009FE6E2 /* Another Album by.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Another Album by.swift"; sourceTree = "<group>"; };
+		EE8B53732B060A93009FE6E2 /* AlbumViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewModel.swift; sourceTree = "<group>"; };
+		EE8B53762B061690009FE6E2 /* AlbumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumView.swift; sourceTree = "<group>"; };
+		EE8B53792B063484009FE6E2 /* AnotherAlbumByView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnotherAlbumByView.swift; sourceTree = "<group>"; };
+		EE8B537B2B065E59009FE6E2 /* TopButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopButtonView.swift; sourceTree = "<group>"; };
+		EE8B537D2B066379009FE6E2 /* PlaylistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistView.swift; sourceTree = "<group>"; };
+		EE8B537F2B075E8D009FE6E2 /* AlbumAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumAnimationView.swift; sourceTree = "<group>"; };
+		EE8B53812B0B5CBE009FE6E2 /* ReproductionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReproductionView.swift; sourceTree = "<group>"; };
+		EE8B53832B0B7498009FE6E2 /* VolumeSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeSliderView.swift; sourceTree = "<group>"; };
+		EE8B53852B0B7BE3009FE6E2 /* QueueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueView.swift; sourceTree = "<group>"; };
+		EE8B53872B0B9CA1009FE6E2 /* TimeSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSliderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +89,9 @@
 				EE8B535D2B038435009FE6E2 /* Assets.xcassets */,
 				EE8B535F2B038435009FE6E2 /* Apple_Music_App.entitlements */,
 				EE8B53602B038435009FE6E2 /* Preview Content */,
+				EE8B53782B0616A4009FE6E2 /* Views */,
+				EE8B53752B060AB2009FE6E2 /* ViewModel */,
+				EE8B536A2B054730009FE6E2 /* Model */,
 			);
 			path = "Apple Music App";
 			sourceTree = "<group>";
@@ -67,6 +102,43 @@
 				EE8B53612B038435009FE6E2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE8B536A2B054730009FE6E2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EE8B53682B054714009FE6E2 /* Album.swift */,
+				EE8B536B2B054931009FE6E2 /* Song.swift */,
+				EE8B536F2B06095E009FE6E2 /* Playlist.swift */,
+				EE8B53712B060977009FE6E2 /* Another Album by.swift */,
+				EE8B536D2B054C3C009FE6E2 /* MyPalette.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EE8B53752B060AB2009FE6E2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EE8B53732B060A93009FE6E2 /* AlbumViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EE8B53782B0616A4009FE6E2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EE8B53762B061690009FE6E2 /* AlbumView.swift */,
+				EE8B53812B0B5CBE009FE6E2 /* ReproductionView.swift */,
+				EE8B537F2B075E8D009FE6E2 /* AlbumAnimationView.swift */,
+				EE8B53852B0B7BE3009FE6E2 /* QueueView.swift */,
+				EE8B53872B0B9CA1009FE6E2 /* TimeSliderView.swift */,
+				EE8B53832B0B7498009FE6E2 /* VolumeSliderView.swift */,
+				EE8B537B2B065E59009FE6E2 /* TopButtonView.swift */,
+				EE106EAE2B0CAD18001A4594 /* TinyButtonView.swift */,
+				EE8B53792B063484009FE6E2 /* AnotherAlbumByView.swift */,
+				EE8B537D2B066379009FE6E2 /* PlaylistView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +211,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE8B53722B060977009FE6E2 /* Another Album by.swift in Sources */,
+				EE8B536C2B054931009FE6E2 /* Song.swift in Sources */,
 				EE8B535C2B038434009FE6E2 /* ContentView.swift in Sources */,
+				EE8B53882B0B9CA1009FE6E2 /* TimeSliderView.swift in Sources */,
+				EE106EAF2B0CAD18001A4594 /* TinyButtonView.swift in Sources */,
+				EE8B53772B061690009FE6E2 /* AlbumView.swift in Sources */,
+				EE8B53822B0B5CBE009FE6E2 /* ReproductionView.swift in Sources */,
 				EE8B535A2B038434009FE6E2 /* Apple_Music_AppApp.swift in Sources */,
+				EE8B53742B060A93009FE6E2 /* AlbumViewModel.swift in Sources */,
+				EE8B537E2B066379009FE6E2 /* PlaylistView.swift in Sources */,
+				EE8B53802B075E8D009FE6E2 /* AlbumAnimationView.swift in Sources */,
+				EE8B536E2B054C3C009FE6E2 /* MyPalette.swift in Sources */,
+				EE8B53862B0B7BE3009FE6E2 /* QueueView.swift in Sources */,
+				EE8B53692B054714009FE6E2 /* Album.swift in Sources */,
+				EE8B53842B0B7498009FE6E2 /* VolumeSliderView.swift in Sources */,
+				EE8B537C2B065E59009FE6E2 /* TopButtonView.swift in Sources */,
+				EE8B53702B06095E009FE6E2 /* Playlist.swift in Sources */,
+				EE8B537A2B063484009FE6E2 /* AnotherAlbumByView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +358,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Apple Music App/Preview Content\"";
+				DEVELOPMENT_TEAM = Q6DHV9ZDPL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -306,6 +395,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Apple Music App/Preview Content\"";
+				DEVELOPMENT_TEAM = Q6DHV9ZDPL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
